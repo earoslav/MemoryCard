@@ -1,10 +1,10 @@
-from PyQt5.QtWidgets import QApplication
-from random import shuffle,choice
-app = QApplication([])
+from PyQt5.QtWidgets import QApplication#імпорт всього що нада
+from random import shuffle,choice#імпорт з рандому
+app = QApplication([])#створюємо додаток
 
-from main_win import*
+from main_win import*#імпортуємо з мейну все
 
 
 
-win.show()
-app.exec()
+win.show()#показати вікно
+app.exec()#додаток закривається після нажаття на хрестик
